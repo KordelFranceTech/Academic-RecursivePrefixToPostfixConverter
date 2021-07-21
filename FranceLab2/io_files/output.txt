@@ -1,0 +1,49 @@
+*****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
+										Welcome
+*****************************************************************************************
+						Starting Prefix-To-Postfix Program
+*****************************************************************************************
+	11 total expressions were read in
+	Beginning conversion of prefix expressions to postfix expressions...
+
+
+1) For the prefix string: -+ABC, the equivalent postfix string is: AB+C-
+-----------------------------------------------------------------------------------------
+2) For the prefix string: -A+BC, the equivalent postfix string is: ABC+-
+-----------------------------------------------------------------------------------------
+3) For the prefix string: $+-ABC+D-EF, the equivalent postfix string is: AB-C+DEF-+$
+-----------------------------------------------------------------------------------------
+4) For the prefix string: -*A$B+C-DE*EF, the equivalent postfix string could not be found.
+There are too many operands or operators in given prefix string.
+-----------------------------------------------------------------------------------------
+5) For the prefix string: **A+BC+C-BA, the equivalent postfix string is: ABC+*CBA-+*
+-----------------------------------------------------------------------------------------
+6) For the prefix string: /A+BC+C*BA, the equivalent postfix string could not be found.
+There are too many operands or operators in given prefix string.
+-----------------------------------------------------------------------------------------
+7) For the prefix string: *-*-ABC+BA, the equivalent postfix string is: AB-C*BA+-*
+-----------------------------------------------------------------------------------------
+8) For the prefix string: /+/A-BC-BA, the equivalent postfix string could not be found.
+There are too many operands or operators in given prefix string.
+-----------------------------------------------------------------------------------------
+9) For the prefix string: *$A+BC+C-BA, the equivalent postfix string is: ABC+$CBA-+*
+-----------------------------------------------------------------------------------------
+10) For the prefix string: //A+B0-C+BA, the equivalent postfix string could not be found.
+The characters ['0'] are illegal in the given prefix string.
+There are also too many operands or operators in given prefix string.
+Only alphabetical characters and operands of type ['*', '/', '+', '-', '$'] are acceptable.
+-----------------------------------------------------------------------------------------
+11) For the prefix string: *$A^BC+C-B, the equivalent postfix string could not be found.
+The characters ['^'] are illegal in the given prefix string.
+There are also too many operands or operators in given prefix string.
+Only alphabetical characters and operands of type ['*', '/', '+', '-', '$'] are acceptable.
+-----------------------------------------------------------------------------------------
+*****************************************************************************************
+*****************************************************************************************
+6 out of 11 total non-blank lines were successfully converted to postfix expressions.
+5 out of 11 total non-blank lines failed to convert to postfix expressions.
+*****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
